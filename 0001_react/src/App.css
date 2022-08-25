@@ -1,0 +1,162 @@
+/* Generals part */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive, sans-serif;
+}
+
+/* Navbar part */
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  /* border-radius: 0 0 15px 15px; */
+}
+
+.btn {
+  width: 10%;
+  height: 50%;
+  border: 0;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.nav--links {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.link, .link:hover, .link:active {
+  text-decoration: none;
+}
+
+.link {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-left: 30px;
+  padding: 0;
+}
+
+.nav--brand {
+  width: 25%;
+}
+
+.nav--brand img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+/* light mode */
+
+.light-link {
+  color: rgba(27, 25, 25, 0.9);
+  transition: color 1s ease;
+}
+
+.light-link:hover {
+  color: rgba(27, 25, 25, 0.7);
+  transition: color 0.1s ease;
+}
+
+.light-btn {
+  background-color: rgba(27, 25, 25, 0.9);
+  transition: background-color 1s ease;
+}
+
+.light-btn:hover {
+  background-color: transparent;
+  border: 2px rgba(27, 25, 25, 0.9) solid;
+}
+
+.light-nav {
+  background-color: rgba(214, 210, 210, 0.5);
+  transition: background-color 1s ease;
+}
+
+/* dark mode */
+
+.dark-link {
+  color: rgba(214, 210, 210, 0.9);
+  transition: color 1s ease;
+}
+
+.dark-link:hover {
+  color: rgba(214, 210, 210, 1);
+  transition: color 0.1s ease;
+}
+
+.dark-btn {
+  background-color: rgba(214, 210, 210, 0.9);
+  transition: background-color 1s ease;
+}
+
+.dark-btn:hover {
+  background-color: transparent;
+  border: 2px rgba(214, 210, 210, 0.9) solid;
+}
+
+.dark-nav {
+  background-color: rgba(27, 25, 25, 0.9);
+  transition: background-color 1s ease;
+}
+
+/* Main part */
+
+main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+}
+
+main img {
+  width: 40%;
+  height: 80%;
+  border-radius: 4%;
+}
+
+/* light mode */
+
+.light-main {
+  background-color: rgba(214, 210, 210, 1);
+  transition: background-color 1s ease;
+}
+
+.light-waifu:hover {
+  border: 3px rgba(27, 25, 25, 0.9) solid;
+  cursor: pointer;
+  transition: border 0.1s ease;
+}
+
+/* dark mode */
+
+.dark-main {
+  background-color: rgba(27, 25, 25, 0.8);
+  transition: background-color 1s ease;
+}
+
+.dark-waifu:hover {
+  border: 3px rgba(214, 210, 210, 0.9) solid;
+  cursor: pointer;
+  transition: border 0.1s ease;
+}
+
+
+/*
+better waifu hover effect
+add pc view - improve mobile view (media querry
+*/
